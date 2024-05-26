@@ -28,7 +28,7 @@ padding: 2% 0% 2% 15%;
 
 .cabecalho__menu {
   display: flex;
-  gap: 5%;
+  gap: 6%;
 }
 
 .cabecalho__menu__link {
@@ -148,7 +148,11 @@ padding: 2% 0% 2% 15%;
     }
     
     .cabecalho__menu {
-      justify-content: center;
+    justify-content: center;
+    }
+
+    .cabecalho__menu__link {
+      font-size: 1.25rem;
     }
 
   .apresentacao {
@@ -163,7 +167,21 @@ padding: 2% 0% 2% 15%;
     width: auto;
   }
 
-.apresentacao__imagem {
-  width: 90%;
+  .apresentacao__conteudo__titulo {
+    font-size: 1.85rem;
+  }
+
+  .apresentacao__links__link {
+    width: 70%;
+    padding: 4% 0;
+  }
+
+  .apresentacao__imagem {
+    width: 90%;
+  }
+
+  .rodape {
+    padding: 6% 0%;
+    font-weight: 300;
   }
 }
